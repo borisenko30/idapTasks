@@ -1,0 +1,13 @@
+root#You are standing in the middle of a desert. There is a path full of footprints to the south.#Follow the footprints#Go east, there might be oasis somewhere##l#r
+l#You were walking whole day. At the sunset you've spotted a raiders' camp.#Approach the camp and greet the raiders.#Sneak behind the enemy and try to steal some weapon and water##lose1#lr
+lose1#Raiders opened fire. You were killed.
+lr#You are in front of the tent. No raiders around it.#Try to sneak in#Get away from the camp##lrl#lose2
+lose2#You went day and night through the desert. You found nothing but death in the endless sands
+lrl#You've entered the tent. There are two sleeping raiders there.#Search for supplies#Kill those raiders#Leave the tent#lrll#lose3
+lose3#You've made some noise. Other raiders weren't really glad to see you. Bye!
+lrll#You've found a flask of water and some food supplies#Leave until anyone notices you#Steal raider's gun##win1#lose3
+win1#You've been travelling for 2 days until encountered rangers station. They'll help you to reach New-Vegas safely.
+r#You've encountered iguana. It seems it hasn't noticed you.#Try to catch it#Don't waste time and keep walking##rl#lose4
+lose4#You've been walking for a long time. You are really exhausted now. It seems the end is near.
+rl#You've caught your supper. You've won one more day of your life from the heartless desert#Find a place to sleep.###win2
+win2#After a long journey you've reached New-Vegas.
